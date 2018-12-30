@@ -14,7 +14,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-
+    
+    //when back button is pushed from league screen//
+    @IBAction func unWindFromLeagueVC(unWindSeague: UIStoryboardSegue){
+        
+    }
 }
 
