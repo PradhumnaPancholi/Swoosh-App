@@ -8,14 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelomeVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    //when back button is pushed from league screen//
+    //when back button is pushed from league screen//							
     @IBAction func unWindFromLeagueVC(unWindSeague: UIStoryboardSegue){
         
     }
