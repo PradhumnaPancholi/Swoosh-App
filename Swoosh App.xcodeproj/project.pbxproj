@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		450C0B5721DAF49600B0DAA4 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450C0B5621DAF49600B0DAA4 /* LeagueVC.swift */; };
-		450C0B5921DAF50D00B0DAA4 /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450C0B5821DAF50D00B0DAA4 /* SkillVC.swift */; };
+		453D6EE621DDD489009D29D0 /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453D6EE521DDD489009D29D0 /* SkillVC.swift */; };
 		4556526021DC2D7200F5E265 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4556525F21DC2D7200F5E265 /* Player.swift */; };
 		45D954D121D483D500F1921F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D954D021D483D500F1921F /* AppDelegate.swift */; };
 		45D954D321D483D500F1921F /* WelomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D954D221D483D500F1921F /* WelomeVC.swift */; };
@@ -20,7 +20,7 @@
 
 /* Begin PBXFileReference section */
 		450C0B5621DAF49600B0DAA4 /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
-		450C0B5821DAF50D00B0DAA4 /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
+		453D6EE521DDD489009D29D0 /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
 		4556525F21DC2D7200F5E265 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		45D954CD21D483D500F1921F /* Swoosh App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swoosh App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45D954D021D483D500F1921F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 			children = (
 				45D954D221D483D500F1921F /* WelomeVC.swift */,
 				450C0B5621DAF49600B0DAA4 /* LeagueVC.swift */,
-				450C0B5821DAF50D00B0DAA4 /* SkillVC.swift */,
+				453D6EE521DDD489009D29D0 /* SkillVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -171,10 +171,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				453D6EE621DDD489009D29D0 /* SkillVC.swift in Sources */,
 				45D954D321D483D500F1921F /* WelomeVC.swift in Sources */,
 				450C0B5721DAF49600B0DAA4 /* LeagueVC.swift in Sources */,
 				45D954D121D483D500F1921F /* AppDelegate.swift in Sources */,
-				450C0B5921DAF50D00B0DAA4 /* SkillVC.swift in Sources */,
 				4556526021DC2D7200F5E265 /* Player.swift in Sources */,
 				45F4828521D720AC00310713 /* BorderButton.swift in Sources */,
 			);

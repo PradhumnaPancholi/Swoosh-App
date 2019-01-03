@@ -1,19 +1,23 @@
 //
-//  SkillVC.swift
+//  SkillVc.swift
 //  Swoosh App
 //
-//  Created by user148657 on 12/31/18.
-//  Copyright © 2018 user148657. All rights reserved.
+//  Created by user148657 on 1/3/19.
+//  Copyright © 2019 user148657. All rights reserved.
 //
 
 import UIKit
 
 class SkillVC: UIViewController {
 
+    //variable to store data for current player//
+    var currentPlayer : Player!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
+        print(currentPlayer.selectedLeague)
     }
     
 
